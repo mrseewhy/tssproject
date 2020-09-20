@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.about-top{
+    background-image: url(./assets/img/about.png);
+    width: 100%;
+    height: 50vh;
+
+}
+.active{
+    color: #5863F8 !important;
+    
+}
+.text-about-top{
+    color: white;
+    margin-top: 50px;
+}
+.text-about-top h1{
+    font-size: 46px;
+}
+.text-about-top p{
+    font-size: 13px;
+}
+.bg-black{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+.about-heading{
+    width: 35%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-heading h1{
+    font: normal normal 800 42px/56px Poppins;
+
+}
+.about-heading h5{
+    color: #5863F8
+}
+.cardline{
+    display:flex;
+    width: 100%;
+}
+.card-one{
+    width: 50%;
+}
+.card-inline{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    margin-bottom: 20px
+}
+
+.card-img{
+    width:25%;
+}
+.card-text{
+    width: 60%;
+    background-color: #f8f8f8;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+.card-text h5{
+    color: #5863F8;
+}
+.card-icon{
+    width: 10%;
+    background-color: #5863F8;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.form-section{
+    background-color: #eee;
+    margin-top:30px;
+    margin-bottom: 30px;
+    padding: 30px 0 60px 0
+}
+
+.form-section input{
+    background-color: #fff;
+
+}
+
+.form-section button {
+    width: 200px;
+    height: 50px;
+    background: #5863F8 0% 0% no-repeat padding-box;
+    border: 0;
+    color: white;
+    margin-top: 25px;
+}
+
+.picture-heading{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.picture-heading h1{
+    font-size: 42px
+}
+.gallery{
+    display: flex;
+    width:100%;
+}
+.img-ga{
+    width: 25%;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+    width: 100%;
+}
+.main-footer{
+    width: 40%
+}
+.main-footer p{
+    font-size: 13px;
+}
+.socials{
+    display: flex;
+}
+.fa-facebook{
+    background-color: #5863F8;
+    margin-right: 20px;
+    padding: 25px 28px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.use-links li{
+    list-style-type: none;
+}
+.use-links a{
+    text-decoration: none;
+    color: #5863F8
+}
+.use-links{
+    width: 20%;
+}
+.footer{
+    display: flex;
+}
+.p{
+    width: 70%
+}
+.last{
+    text-align: center;
+    font-size: 12px;
+    padding:10px;
+}
+
